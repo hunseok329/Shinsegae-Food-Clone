@@ -1,0 +1,16 @@
+.item {
+  height: 450px;
+  transition-duration: 2s;
+}
+@media (max-width: 950px) {
+  .item {
+    height: 400px;
+    transition-duration: 2s;
+  }
+}
+@media (max-width: 900px) {
+  .item img {
+    width: 100px;
+    transition-duration: 2s;
+  }
+}

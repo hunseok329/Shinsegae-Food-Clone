@@ -1,0 +1,64 @@
+body {
+  background-color: #2d3436;
+}
+header h1 {
+  margin-top: 6%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+section {
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+  align-items: center;
+}
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.item {
+  height: 500px;
+  text-align: center;
+  width: 24.5%;
+  border-radius: 5px;
+  transition: all 2s;
+}
+.item img {
+  margin-top: 60%;
+  width: 120px;
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+.item a {
+  display: block;
+  height: 500px;
+  color: #636e72;
+  text-decoration: none;
+}
+.store {
+  background-color: #fedecb;
+}
+.food {
+  background-color: #cde9f4;
+}
+.brand {
+  background-color: #f4eed9;
+}
+.hand {
+  background-color: #e4e8d1;
+}
+.store:hover {
+  background-color: #ffd4c4;
+}
+.food:hover {
+  background-color: #bae5f9;
+}
+.brand:hover {
+  background-color: #fcf0d1;
+}
+.hand:hover {
+  background-color: #dce2c9;
+}
